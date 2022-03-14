@@ -31,8 +31,32 @@ Just a cookbook of common bash scripting functions
 [[ "$STRING == *ing ]]  #False if $STRING does not ends with "ing"
 ```
 
+### Substring
+
+#### Take out a slice of a string 
+
+
+{string:position:length}
+
+So in this case:
+
+```
+$ str="abcdefghijklm"
+$ echo "${str:0:5}"
+abcde
+See other usages:
+
+$ echo "${str:0}"      # default: start from the 0th position
+abcdefghijklm
+$ echo "${str:1:5}"    # start from the 1th and get 5 characters
+bcdef
+$ echo "${str:10:1}"   # start from 10th just one character
+k
+$ echo "${str:5}"      # start from 5th until the end
+fghijklm
+```
+
 ## Regex 
 
 ### Replace line in file
 
-sntes
