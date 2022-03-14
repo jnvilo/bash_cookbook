@@ -20,3 +20,7 @@ Just a cookbook of common bash scripting functions
 [[ "$STRING == *ing ]]  #True if $STRING ends with "ing"
 [[ "$STRING == *ing ]]  #False if $STRING does not ends with "ing"
 ```
+
+## Regex 
+
+### Replace line in file
