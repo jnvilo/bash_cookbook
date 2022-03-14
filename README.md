@@ -6,6 +6,8 @@
   - [String Functions](#string-functions)
     - [Check if String starts with](#check-if-string-starts-with)
     - [Check if String ends with](#check-if-string-ends-with)
+    - [Substring](#substring)
+      - [Take out a slice of a string](#take-out-a-slice-of-a-string)
   - [Regex](#regex)
     - [Replace line in file](#replace-line-in-file)
 
