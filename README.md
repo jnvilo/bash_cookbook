@@ -25,4 +25,4 @@ Just a cookbook of common bash scripting functions
 
 ### Replace line in file
 
-ntes
+sntes
